@@ -2,7 +2,8 @@ const arr = new Array()
 
 for(i = 0; i < 10; i++) {
     let bool = false
-    let value = (Math.random() * 50).toFixed()
+    let value = +(Math.random() * 50).toFixed()
+    
 
     for(j = 0; j < i; j++) {
         if(arr[j] === value) {
