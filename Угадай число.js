@@ -1,7 +1,7 @@
 const readline = require('readline').createInterface({input: process.stdin, output: process.stdout})
 
 
-let value = +(Math.random() * 20 + 1).toFixed()
+let value = Math.floor(Math.random() * 20) + 1
 readline.question('Введите число: ', number => {
     if(value === +number) {
         console.log(`Вы угадали! Вы ввели ${number}, я загадал: ${value}`)
