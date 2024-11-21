@@ -12,8 +12,7 @@ function myMap(arr, callback) {
 
 const arr = [1,2,3,4,5]
 
-myMap(arr, item => {
+myMap(arr, (item, index, oldArr) => {
+    console.log(oldArr[0] = 333)
     console.log(item)
 })
-
-arr.map(item => console.log(item))
