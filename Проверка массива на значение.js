@@ -9,3 +9,12 @@ function arrayIsEmpty(arr) {
 } 
 
 console.log(arrayIsEmpty(arsr))
+
+// Упращення версия.
+const array = [12]
+
+function arrayIsEmpty(arr) {
+    return arr.length === 0;
+} 
+
+console.log(arrayIsEmpty(array))
