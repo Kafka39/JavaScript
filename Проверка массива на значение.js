@@ -1,4 +1,4 @@
-const arsr = [222]
+const array = [222]
 
 function arrayIsEmpty(arr) {
     if(!arr.length) {
@@ -8,7 +8,7 @@ function arrayIsEmpty(arr) {
     }
 } 
 
-console.log(arrayIsEmpty(arsr))
+console.log(arrayIsEmpty(array))
 
 // Упращення версия.
 const array = [12]
